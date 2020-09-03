@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- metadata elements -->
-  </head>
-  <body>
-      <div>
-          <h1>Betty Chaca</h1>
-          <p>github</p>
-          <p>LinkedIn</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aliquid quae deleniti cum amet, iste facilis ipsam tenetur dolor illum hic ratione nostrum! Fuga, odit error sint quaerat deserunt eum!</p>
-        </div>
-      <div>
 
-          <img src="images/img1.jpg" alt="" width="500" height="500">
+<head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
 
+<body class="sm:bg-blue-200 md:bg-red-200 lg:bg-gray-100 ">
+    <div class=" md:flex rounded-lg p-24 ">
+        <img class="h-32 w-32 rounded-full mx-auto md:mx-auto md:mr-6 md:mt-6" src="images/img1.jpg">
+        <div class="text-center md:text-left sm:-mt-8">
+            <div class="bg-white p-12 ">
+                <p class="text-lg leanding-tight">BettyCF</p>
+                <p class="text-xl leanding-tight">Github</p>
+                <p class="text-xl leanding-tight">LinkedIn</p>
+                <div class="pt-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aliquid quae deleniti cum amet, iste facilis ipsam tenetur dolor illum hic ratione nostrum! Fuga, odit error sint quaerat deserunt eum!</div>
+                <div class="pt-10">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> Mis proyectos </button>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> Mi blog </button>
+                </div>
+            </div>
         </div>
-      <div>
-          <input type="button" value="My projects"> 
-          <input type="button" value="My blog">
-      </div>
+    </div>
+
+
     <!-- page contents -->
-  </body>
+</body>
+
 </html>
