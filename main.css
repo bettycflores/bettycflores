@@ -1,3 +1,7 @@
-@font-body{
-  font-family: 'Roboto', sans-serif;   
+a {
+    color: gray;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
